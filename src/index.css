@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'jacques';
+        src: url('../src/assets/fonts/JacquesFrancois-Regular.ttf');
+    }
+    @font-face {
+        font-family: 'jaldi';
+        src: url('../src/assets/fonts/Jaldi-Regular.ttf');
+    }
+}
